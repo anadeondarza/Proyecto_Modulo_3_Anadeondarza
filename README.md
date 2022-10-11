@@ -1,8 +1,8 @@
-#Proyecto módulo 3
+##Proyecto módulo 3
 
 Este es el README de mi tercer proyecto en Ironhack. El proyecto consiste en realizar la compety de diamantes de Kaggle con el objetivo de crear nuestro modelo supervisado para predecir el precio de los diamantes. 
 
-#EDA📌
+##EDA📌
 
 Tras realizar el análisis de nuestro Data Set, podemos observar que las features que más inciden en el precio son las referentes a su tamaño y volumne, esdecir, X, Y, Z, y el carat. Además, el carat y el volumen tienen una relación directa. 
 El precio del diamente depende de su Volumen, y de sus carat principalmente, a mayor volumen, mayor carat, mayor precio. 
@@ -12,7 +12,7 @@ Estas 4 features tienen outlayers, únicamente vamos a quitar el outlayer del fe
 Las features que menos peso tienen en el precio son la ciudad, el color, la claridad, y el corte. 
 
 
-#Best Model 💻
+##Best Model 💻
 
 1. El mejor RMSE en Kaggle: 584.27665 / Notebook 541.060
 
@@ -41,7 +41,7 @@ Paso 7: Para entrenarlo aplicamos al Dataframe el train_test_split para poder po
 Paso 8: Aplicamos el RandomForestRegressor, el modelo que mejor RMSE nos ha dado. Para los parámetros hemos utilizado parámtros tipo. 
 Paso 9: Posteriormente aplicamos el mismo trabajo el al dataset para el que queremos predecir. 
 
-#Analysis ✒️
+##Analysis ✒️
 
 Tras la realización del modelo, y tras el intento de multiples análisis, he podido comprobar que la reducción de features, quitando las que menos peso tienen no mejora las predicciones.
 El RandmForest es el que nos ofrece mejor predicciones, el RMSE más bajo. 
